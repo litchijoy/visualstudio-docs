@@ -340,7 +340,7 @@ translation.priority.mt:
   
 1.  Open **ExpenseItHome.xaml**.  
   
-2.  Find the line `<Grid.ColumnDefinitions>` and add the following just below it:  
+2.  Find the line `</Grid.ColumnDefinitions>` and add the following just before it:  
   
     ```xaml  
     <ColumnDefinition Width="230" />  
@@ -390,8 +390,8 @@ translation.priority.mt:
           Title="ExpenseIt - Home">  
         <Grid Margin="10,0,10,10">  
             <Grid.ColumnDefinitions>  
-                <ColumnDefinition Width="230" />  
                 <ColumnDefinition />  
+                <ColumnDefinition Width="230" />  
             </Grid.ColumnDefinitions>  
             <Grid.RowDefinitions>  
                 <RowDefinition />  
@@ -438,8 +438,8 @@ translation.priority.mt:
           Title="ExpenseIt - Home" >  
         <Grid Margin="10,0,10,10">  
             <Grid.ColumnDefinitions>  
-                <ColumnDefinition Width="230" />  
                 <ColumnDefinition />  
+                <ColumnDefinition Width="230" />  
             </Grid.ColumnDefinitions>  
             <Grid.RowDefinitions>  
                 <RowDefinition />  
